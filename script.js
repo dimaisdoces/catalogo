@@ -403,7 +403,7 @@ function sendOrder() {
     if (orderNotes) {
         message += `\n\nObservações: ${orderNotes}`;
     }
-    message += `\n\nObrigado(a) Aguaradando a confirmação!`;
+    message += `\n\nObrigado(a) Aguardando a confirmação!`;
 
     console.log("WhatsApp Link:", `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`); // Log para depuração
 
