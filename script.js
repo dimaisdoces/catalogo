@@ -398,7 +398,7 @@ function sendOrder() {
 
     const orderNotes = document.getElementById('orderNotes').value;
 
-    let phoneNumber = ''; // Número de telefone para o WhatsApp
+    let phoneNumber = '5511981049922'; // Número de telefone para o WhatsApp
     let message = `Olá, meu nome é ${customerName}, estou enviando o meu pedido:\n\n${orderDetails}\n\nTotal: R$ ${totalAmount}`;
     if (orderNotes) {
         message += `\n\nObservações: ${orderNotes}`;
